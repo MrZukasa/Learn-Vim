@@ -1,0 +1,29 @@
+## Guida ad i comandi VIM
+- `:q` per uscire dal documento o dal programma.
+- `:q!` per uscire dal documento o dal programma senza salvare.
+- `:wq` per uscire dal documento salvando.
+- `:w` per salvare senza uscire.
+- `:set number` aggiunge i numeri all' inizio delle righe
+- premere `i` per passare alla modalità inserimento
+- premere `ESC` per tornare alla modalià comandi
+- premere `dd` per cancellare una linea intera in modalità comandi, se si mette un numero davati al comando si cancellano quell' ammontare di righe successive al cursore, `dw` per cancellare una parola intera.
+- premere `D` per cancellare dal cursore in avanti.
+- premere `u` per l'undo.
+- premere `CTRL + r` per il redo.
+- in modalità comandi, premere `/` per iniziare a ricercare una stringa.
+  - `n` per scorrere tra i risultati in un verso e `N` per scorrere al contrario.
+- per cercare e sostiture una stringa si usa `:%s`[stringa da cercare]/[stringa da usare in sostituzione]/`g` per sostituire tutto in un colpo solo oppure `c` per far si che ci venga chiesto tutte le volte.
+- premere `G` per andare al fondo del file e `gg` per torane all' inizio.
+- premere `{` e `}` per scorrere tra le varie porzioni di codice.
+- premere `yy` per copiare una linea e `p` per incollarla nella riga sotto o `P` per incollarla nella riga sopra.
+- premere `V` per andare in modalità selezione.
+- premere `o` per inserire una riga e andare direttamente in modalità inserimento. la stessa cosa si può fare per una riga sopra usando `O`.
+- premere `w` per andare alla prossima della parola e `B` per torane alla precedente.
+- premere `W` per saltare di spazio in spazio.
+- premere `:20` per andare alla riga 20.
+- premere `0` per andare all' inizio della riga e `^` per andare alla prima parola della riga.
+- premere `$` per andare al fondo della riga.
+- posizionarsi ad inizio riga e premere `f` e poi un carattere porta il cursore a quel carattere, premere `t` e poi un carattere, porta il cursore un carattere prima di quel carattere.
+- premere `%` ti consente di saltare tra una parentesi aperta ed una chiusa.
+- premere `c` e poi un carattere per cambiarlo ed andare in modalità inserimento.
+> ***NOTA*** è possibile combinare le funzioni, per esempio premere `c` ci porta in `change` poi premere `f` ci porta in `find` e poi inserendo un carattere cambieremo tutto fino a quel carattere e andremo in modalità inserimento.
