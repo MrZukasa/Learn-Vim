@@ -16,7 +16,7 @@
 - premere `G` per andare al fondo del file e `gg` per torane all' inizio.
 - premere `{` e `}` per scorrere tra le varie porzioni di codice.
 - premere `yy` per copiare una linea e `p` per incollarla nella riga sotto o `P` per incollarla nella riga sopra.
-- premere `V` per andare in modalità selezione.
+- premere `v` per andare in modalità selezione, `V` per selezionare una riga intera e `CTRL + v` per un intera colonna.
 - premere `o` per inserire una riga e andare direttamente in modalità inserimento. la stessa cosa si può fare per una riga sopra usando `O`.
 - premere `w` per andare alla prossima della parola e `B` per torane alla precedente.
 - premere `W` per saltare di spazio in spazio.
@@ -27,3 +27,14 @@
 - premere `%` ti consente di saltare tra una parentesi aperta ed una chiusa.
 - premere `c` e poi un carattere per cambiarlo ed andare in modalità inserimento.
 > ***NOTA*** è possibile combinare le funzioni, per esempio premere `c` ci porta in `change` poi premere `f` ci porta in `find` e poi inserendo un carattere cambieremo tutto fino a quel carattere e andremo in modalità inserimento.
+- il carattere `*` permette di trovare altre parole uguali a quelle dove si ha il cursore.
+- il carattere `;` serve per muoversi tra le diverse istanze su una riga, ad esempio se si cerca qualcosa con il carattere `t` con `;` è possibile scorrere tra le istanze.
+- premere `zz` per portare il cursore alla riga di metà schermo.
+- premere `a` porta avanti di un carattere e direttamente in modalità inserimento, mentre `A` porta al fondo della riga direttamente in modalità inserimento.
+- premere `x` cancella il carattere sul quale è posizionato il cursore, mettendo un numero davanti, cancella l'esatto ammontare di caratteri dal cursore.
+- premere `~` cambia il case di un carattere, da minuscolo a maiuscolo e viceversa.
+- premere `.` ripete l' ultimo comando fatto.
+- premere `r` rimpiazza una lettera con la lettara che inseriamo dopo la `r`.
+- premere `>>` per indentare e `<<` per unindentare.
+- premere `I` permette di inserire la stessa cosa su più righe selezionate.
+- per cercare qualcosa all'interno del documento si usa il carattere `/` seguito dalla stringa da cercare.
